@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 2000px;
+}
+
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  transition: 1s all;
+  top: 0;
+}
+
+.nav-up {
+  top: -60px;
+  transition: 1s all;
+}
+
+/* nav-bar css starts  */
+.nav-bar-section {
+  background-color: #08512d;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0px 2px 2.5px rgba(0, 0, 0, 0.25);
+  overflow: auto;
+}
+
+.nav-bar-section ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.nav-bar-section ul li {
+  padding: 21px 30px 21px 32px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+.nav-bar-section ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #fff;
+  display: block;
+}
+
+.div-2{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    display: block;
+    margin-top: 60px;
+}
